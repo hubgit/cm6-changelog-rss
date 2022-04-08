@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "name": "cm6-changelog-rss",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "format": "prettier --write '**/*.{js,css,json,md}'"
+  },
+  "author": "Alf Eaton <eaton.alf@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "feed": "^4.2.2",
+    "sha.js": "^2.4.11"
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  }
+}
